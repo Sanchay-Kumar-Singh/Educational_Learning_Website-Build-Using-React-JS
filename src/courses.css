@@ -1,0 +1,72 @@
+/* Courses.css */
+.courses {
+  background: #f8f9fc;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.courses-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.courses-title {
+  font-size: 32px;
+  color: black;
+  margin-top: -30px;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.course-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.course-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.course-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.course-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.btn-enroll {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff7f50;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+
+.btn-enroll:hover {
+  background: #ff5722;
+}

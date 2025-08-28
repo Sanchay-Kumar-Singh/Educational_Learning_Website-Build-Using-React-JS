@@ -1,0 +1,69 @@
+/* Home.css */
+
+.home {
+  background: linear-gradient(135deg, #2709e4, #1846dc);
+  color: #fff;
+  padding: 80px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.home-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.home-text h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: cursive;
+}
+
+.home-text h1 span {
+  color: #ffe400;
+  font-family: cursive;
+}
+
+.home-text p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  font-family: cursive;
+}
+
+.btn-primary {
+  background: #ffe400;
+  color: #333;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background: #ffc107;
+}
+
+.home-image {
+  flex: 1;
+  min-width: 280px;
+  text-align: center;
+}
+
+.home-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
