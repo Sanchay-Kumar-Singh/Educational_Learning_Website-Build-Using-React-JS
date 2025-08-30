@@ -39,7 +39,6 @@ function App() {
 
   return (
   <>
-  <h1 className="set">Contact us</h1>
     <div className="contact-container" id="contact">
       <h2 className="contact-title">Contact Us</h2>
       <form onSubmit={onSubmit} className="contact-form">

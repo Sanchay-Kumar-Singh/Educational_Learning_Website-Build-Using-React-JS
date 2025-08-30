@@ -4,9 +4,6 @@ body {
   margin: 0;
   padding: 0;
 }
-.set{
-  text-align: center;
-}
 .contact-container {
   max-width: 500px;
   background: #fff;
@@ -58,4 +55,10 @@ body {
 
 .contact-form button:hover {
   background-color: #0056b3;
+}
+@media(max-width:800px){
+  .contact-title{
+      margin-top: 50px;  
+  }
+
 }

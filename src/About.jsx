@@ -5,7 +5,6 @@ import aboutImg from "./assets/Screenshot 2025-08-27 023609.png"; // Ensure an i
 function About() {
   return (
  <>
- <h1 className="sets">About US</h1>
     <section className="about" id="about">
       <div className="about-container">
         {/* Image Section */}

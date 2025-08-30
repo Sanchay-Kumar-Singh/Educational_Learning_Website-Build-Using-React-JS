@@ -13,7 +13,7 @@
 .courses-title {
   font-size: 32px;
   color: black;
-  margin-top: -30px;
+  margin-top: 10px;
 }
 
 .courses-grid {
@@ -69,4 +69,10 @@
 
 .btn-enroll:hover {
   background: #ff5722;
+}
+@media(max-width:400px){
+  .courses-title{
+      margin-top: 10px;  
+  }
+
 }

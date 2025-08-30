@@ -29,12 +29,7 @@
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
-.sets{
-    text-align: center;
-      font-size: 32px;
-  color: black;
 
-}
 .about-text {
   flex: 1;
   min-width: 300px;
